@@ -11,6 +11,6 @@ dns:
   proxy-server-nameserver:
     - https://1.1.1.1/dns-query
   nameserver-policy:
-    "rule-set:DIRECT":
+    DIRECT:
       - https://doh.pub/dns-query
       - https://dns.alidns.com/dns-query
