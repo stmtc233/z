@@ -12,10 +12,3 @@ dns:
     - https://185.222.222.222/dns-query
   proxy-server-nameserver:
     - https://doh.pub/dns-query
-  fallback:
-    - https://45.11.45.11/dns-query
-    - https://185.222.222.222/dns-query
-  fallback-filter:
-    geosite:
-      - discord
-      - gfw
