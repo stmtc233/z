@@ -8,13 +8,14 @@ dns:
   nameserver:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
-    - https://1.1.1.1/dns-query
-    - https://1.0.0.1/dns-query
+    - https://45.11.45.11/dns-query
+    - https://185.222.222.222/dns-query
   proxy-server-nameserver:
     - https://doh.pub/dns-query
   fallback:
-    - https://1.1.1.1/dns-query
-    - https://1.0.0.1/dns-query
+    - https://45.11.45.11/dns-query
+    - https://185.222.222.222/dns-query
   fallback-filter:
     geosite:
       - discord
+      - gfw
